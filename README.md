@@ -109,6 +109,8 @@ These include:
 
 The best performing ones were tuned and ensembled to produce one model however this did not exhibit better performance. Further scaling of the dataset was done and cross validation included to improve the accuracy score  
 
+
+The andom Forest Regressor was used to build a Predictive system where Users provide data for features like department, quarter, and specific date through an interactive interface . The system preprocesses the input data to ensure compatibility with the trained model. Application: The predicted productivity value is displayed to the user in an interpretable format, helping in decision-making or performance monitoring in scenario based conditions.
 ## Additional Documentation
 
 As mentioned before included in this repository is the complete project documentation. This includes:
