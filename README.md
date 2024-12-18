@@ -1,7 +1,7 @@
 # Garment-Worker-Productivity-Prediction-
 The Garment Worker Productivity Prediction System is a web-based tool designed to predict the productivity of garment workers based on various input parameters. It employs a machine learning model hosted on a FastAPI backend to process user inputs and return predictions.
 <p>
-    <img src="./images/garment.jpeg" alt="readme Image"/>
+    <img src="https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/app/static/images/garment.jpeg" alt="readme Image"/>
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/-scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=flat-square">
@@ -77,3 +77,51 @@ Running the Application
 
 Usage
 - Task Management: Use the web interface to input data and get predictions for productivity.
+
+## Our Data
+* `date`: Date of the record.
+* `quarter`: The quarter of the year (e.g., Q1, Q2).
+* `department`: Department of workers (e.g., sewing, finishing).
+* `team`: The number representing the team.
+* `targeted_productivity`: The target productivity (between 0 and 1).
+* `smv`: Standard Minute Value (time required to complete the task).
+* `wip`: Work In Progress (missing values present).
+* `over_time`: Overtime in minutes.
+* `incentive`: Bonus paid to workers.
+* `idle_time`: Time during which no work was done.
+* `idle_men`: Number of idle workers.
+* `no_of_style_change`: Number of style changes in production.
+* `no_of_workers`: Number of workers in the team.
+* `actual_productivity`: Target variable representing the productivity achieved (between 0 and 1).
+
+We also conducted feature engineering on some columns to capture more information. All this is well documented in the included project [**writeup**](https://github.com/Lynn-rose/Ecommerce-Recommender-System/blob/main/Documentation%20for%20Ecommerce%20recommendation%20System.docx.pdf).
+
+## EDA
+
+We conducted some EDA that yielded us some domain knowledge we could use to inform future steps and modelling
+Some of the plots we came up with are shown below: 
+<p align='center'>
+    <img src="https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/app/static/images/Screenshot%20from%202024-12-13%2005-50-43.png" alt="Analysis of Target Variable"/>
+    <img src="https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/app/static/images/Screenshot%20from%202024-12-13%2005-59-16.png" alt="Feature-Target Relationships"/>
+    <img src="https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/app/static/images/Screenshot%20from%202024-12-13%2006-10-05.png" alt="Correlation Analysis"/>
+</p> 
+## Modelling 
+
+We built multiple models powered by different algorithms.
+These include:
+* `Linear Regression`
+* `Ridge and Lasso Regression`
+* `Random Forest Regressor`
+* `Gradient Boosting Regressor`
+* `XGBoost Regressor`
+* `Support Vector Regressor`
+* `AdaBoost Regressor`
+
+The best performing ones were tuned and ensembled to produce one model however this did not exhibit better performance. Further scaling of the dataset was done and cross validation included to improve the accuracy score  
+
+## Additional Documentation
+
+As mentioned before included in this repository is the complete project documentation. This includes:
+* [Non-technical presentation](https://github.com/Lynn-rose/Ecommerce-Recommender-System/blob/main/Ecommerce%20Recommender%20System.pdf).
+* [Write-up documentation](https://github.com/Lynn-rose/Ecommerce-Recommender-System/blob/main/Documentation%20for%20Ecommerce%20recommendation%20System.docx.pdf).
+For any additional questions, please contact Lynn Rose Achieng, lynn90952@gmail.com
