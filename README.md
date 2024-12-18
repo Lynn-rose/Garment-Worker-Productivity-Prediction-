@@ -70,7 +70,7 @@ If using plain HTML/CSS/JavaScript, ensure your static files are correctly place
 Running the Application
 1. Start the Backend Server:
 
-    `fastapi run main.py
+    `fastapi run main.py`
     
 2. Access the Application:
     Copy this url and paste it on the web browser `http://127.0.0.1:8000`
@@ -105,6 +105,7 @@ Some of the plots we came up with are shown below:
     <img src="https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/app/static/images/Screenshot%20from%202024-12-13%2005-59-16.png" alt="Feature-Target Relationships"/>
     <img src="https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/app/static/images/Screenshot%20from%202024-12-13%2006-10-05.png" alt="Correlation Analysis"/>
 </p> 
+
 ## Modelling 
 
 We built multiple models powered by different algorithms.
@@ -122,6 +123,6 @@ The best performing ones were tuned and ensembled to produce one model however t
 ## Additional Documentation
 
 As mentioned before included in this repository is the complete project documentation. This includes:
-* [Non-technical presentation](https://github.com/Lynn-rose/Ecommerce-Recommender-System/blob/main/Ecommerce%20Recommender%20System.pdf).
 * [Write-up documentation](https://github.com/Lynn-rose/Ecommerce-Recommender-System/blob/main/Documentation%20for%20Ecommerce%20recommendation%20System.docx.pdf).
+
 For any additional questions, please contact Lynn Rose Achieng, lynn90952@gmail.com
