@@ -32,4 +32,48 @@ The Garment Worker Productivity Prediction project aims to accurately forecast t
 - **Modelling**: To further support and provide insight we built a hybrid-based system.
 - **Evaluation**: Accuracy Score, Mean Absolute Error abd Root Mean Squared Error were used to measure the average of absolute deviance between actual and predicted ratings given by users.
 
+## Setup Instructions
 
+All these should be done in the terminal.
+
+1. Clone the Repository:
+
+    `git clone git@github.com:Lynn-rose/Garment-Worker-Productivity-Prediction-.git`
+    
+     `cd your-repo-name`
+     
+2. Create and Activate a Virtual Environment:
+
+ `python3 -m venv env`
+ 
+ `source env/bin/activate`
+ 
+ On Windows, use `env\Scripts\activate`
+ 
+3. Create your branch and move into your branch
+
+  `git checkout -b branch-name`
+  
+4. Install Dependencies:
+
+Generate a `requirements.txt` file using this command
+
+   `pip freeze > requirements.txt`
+    
+   Install the required packages:
+    
+   `pip install -r requirements.txt`
+
+Frontend Setup
+If using plain HTML/CSS/JavaScript, ensure your static files are correctly placed in the `static` directory of your Django project.
+
+Running the Application
+1. Start the Backend Server:
+
+    `fastapi run main.py
+    
+2. Access the Application:
+    Copy this url and paste it on the web browser `http://127.0.0.1:8000`
+
+Usage
+- Task Management: Use the web interface to input data and get predictions for productivity.
