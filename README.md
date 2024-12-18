@@ -94,7 +94,7 @@ Usage
 * `no_of_workers`: Number of workers in the team.
 * `actual_productivity`: Target variable representing the productivity achieved (between 0 and 1).
 
-We also conducted feature engineering on some columns to capture more information. All this is well documented in the included project [**writeup**](https://github.com/Lynn-rose/Ecommerce-Recommender-System/blob/main/Documentation%20for%20Ecommerce%20recommendation%20System.docx.pdf).
+We also conducted feature engineering on some columns to capture more information. All this is well documented in the included project [**writeup**](https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/Garment%20worker.pdf).
 
 ## EDA
 
@@ -123,6 +123,6 @@ The best performing ones were tuned and ensembled to produce one model however t
 ## Additional Documentation
 
 As mentioned before included in this repository is the complete project documentation. This includes:
-* [Write-up documentation](https://github.com/Lynn-rose/Ecommerce-Recommender-System/blob/main/Documentation%20for%20Ecommerce%20recommendation%20System.docx.pdf).
+* [Write-up documentation](https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/Garment%20worker.pdf).
 
 For any additional questions, please contact Lynn Rose Achieng, lynn90952@gmail.com
