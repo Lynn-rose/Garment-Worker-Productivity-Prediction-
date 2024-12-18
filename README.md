@@ -3,17 +3,6 @@ The Garment Worker Productivity Prediction System is a web-based tool designed t
 <p>
     <img src="https://github.com/Lynn-rose/Garment-Worker-Productivity-Prediction-/blob/main/app/static/images/garment.jpeg" alt="readme Image"/>
 </p>
-<p align="center">
-    <img src="https://img.shields.io/badge/-scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=flat-square">
-    <img src="https://img.shields.io/badge/-Surprise-4B0082?logo=python&logoColor=white&style=flat-square">
-    <img src="https://img.shields.io/badge/-Vercel-FF4B4B?logo=vercel&logoColor=white&style=flat-square">
-    <img src="https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat-square">
-    <img src="https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white&style=flat-square">
-    <img src="https://img.shields.io/badge/-NLTK-4EA94B?logo=python&logoColor=white&style=flat-square">
-    <img src="https://img.shields.io/badge/-Seaborn-3776AB?logo=python&logoColor=white&style=flat-square">
-    <img src="https://img.shields.io/badge/-Plotly-3F4F75?logo=plotly&logoColor=white&style=flat-square">
-    <img src="https://img.shields.io/badge/-Django-3F4F75?logo=django&logoColor=white&style=flat-square">
-</p>
 
 #### Authors
 * [Lynn Achieng](https://github.com/Lynn-rose)
